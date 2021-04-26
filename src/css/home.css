@@ -1,0 +1,159 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 180%;
+    color: #444;
+    text-align: center;
+}
+
+.Img-Home{
+    width: 150px;
+    height: auto;
+    margin-top: -34px;
+}
+
+.Navegacion{ 
+     background-color: whitesmoke;
+     margin-top: 0px;
+}
+
+.Img-Logos{
+    width: 40px;
+}
+
+.Barra-Navegacion {
+    display: flex;
+    justify-content: center; 
+ 
+}
+.Barra-Navegacion a {
+    text-decoration: none;
+    padding: 6px;
+    font-size: 16px;
+    color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Div-Img-Logo{
+    display: flex;
+    position: relative;
+}
+
+.foto1{
+    background-image: url(/src/img/avene1.jpg);
+    height: 900px;
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.foto2{
+    background-image: url(/src/img/avene2.jpg);
+    min-height: 500px;
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.foto3{
+    background-image: url(/src/img/avene5.png);
+    min-height: 400px;
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.foto4{
+    background-image: url(/src/img/avene2.jpg);
+    height: 700px;
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letrero1{
+    color: #fbfbfb;
+    font-size: 450%;
+    position: absolute;
+    top:30%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.letrero2 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+    color: #c73256;
+    top:40%;
+    font-size: 450%;
+}
+
+.letrero3 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+    color: #D1345b;
+    font-size: 350%;
+    top: 49%;
+}
+.letrero4 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+    color: white;
+    font-size: 250%;
+    top: 45%
+}
+
+section{
+    background-color: whitesmoke;
+    padding: 50px 80px;
+}
+
+.Dark{
+    background-color:  #f7dde3;
+    color:#D1345b;
+    height: 200%;
+}
+.Link{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 18px;
+    color: #D1345b;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (max-width:768px){
+    .letrero1{
+        font-size: 350%;
+    }
+    .letrero2{
+        font-size: 250%;
+    }
+    .letrero3{
+        font-size: 150%;
+    }
+}
